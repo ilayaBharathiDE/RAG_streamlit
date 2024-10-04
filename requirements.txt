@@ -6,4 +6,6 @@ langchain-ollama==0.2.0
 langchain-text-splitters==0.3.0
 FAISS-cpu==1.8.0.post1
 huggingface-hub==0.25.1
-torch==2.4.1+cu118
+torch==2.4.1  # Updated to the CPU version (or use torch==2.4.1+cu118 if you need CUDA support)
+torchaudio==2.4.1
+torchvision==0.19.1+cu118
