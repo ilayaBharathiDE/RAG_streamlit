@@ -2,7 +2,8 @@ import streamlit as st
 from PyPDF2 import PdfReader  # for PDF read
 from langchain.text_splitter import RecursiveCharacterTextSplitter  # to split multiple chunks
 from langchain_community.vectorstores import FAISS
-from langchain.embeddings.huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
+#from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain_community.llms import Ollama
 from langchain.chains.question_answering import load_qa_chain
 import time
