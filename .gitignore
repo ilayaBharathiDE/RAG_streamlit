@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Excel files
+*.xlsx
+
+# JSON files
+*.json
+
+# Other common files to ignore
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+.env
